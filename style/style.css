@@ -1,0 +1,140 @@
+/* Geral */
+*{
+    font-family: "Roboto";
+}
+
+body{
+    margin: 0;
+    display: flex;
+    background-image: url(../img/background-academia.jpg);
+    background-attachment: fixed;
+}
+
+/* Sobre */
+
+#sobre_container{
+    flex: 1.6;
+    color: white;
+    padding: 2rem 4rem;
+}
+
+#logo img{
+
+    width: 430px;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+#estrutura_texto h1, p, h4{
+    margin-bottom: 2rem;
+}
+#estrutura_texto h1{
+    text-align: left;
+    font-size: 2.5rem;
+}
+#estrutura_texto p{
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+#estrutura_texto h4{
+    text-align: left;
+    font-size: 1.6rem;
+}
+
+#beneficios_container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+}
+
+.beneficio{
+    text-align: center;
+    border: 1px solid white;
+    max-width: 200px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.beneficio img{
+    padding: 20px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.conteudo h5{
+    font-size: 1.3rem;
+}
+
+.conteudo p{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+
+/* Form */
+#form_container{
+    flex: 1;
+    background-image: url(../img/Yellow-Background.jpg);
+    background-attachment: fixed;
+    padding: 4rem 4rem;
+}
+
+#formulario{
+    text-align: center;
+    margin-right: 4rem;
+    padding: 25px;
+    border: 3px solid black;
+    position: fixed;
+}
+
+#formulario h2{
+    font-size: 2rem;
+}
+
+#formulario p{
+    font-size: 1rem;
+}
+
+#formulario_registro{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    gap: .5rem;
+}
+
+#formulario_registro input{
+    padding: .3rem .5rem;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+#formulario_registro input[type=submit]{
+    background-color: transparent;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: .6rem .4rem;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#formulario_registro input[type=submit]:hover{
+    background-color: black;
+    color: yellow;
+}
+
+#nome_usuario{
+    display: flex;
+    gap: .5rem; 
+}
+
+
+#formulario h4{
+    font-size: 1.3rem;
+    margin-bottom: 0px;
+    text-align: left;
+}
+#formulario ul{
+    font-size: 1rem;
+    text-align: left;
+}
